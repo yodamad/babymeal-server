@@ -1,4 +1,4 @@
-/* package fr.jahland.baby.config;
+package fr.jahland.baby.config;
 
 import org.springframework.stereotype.Component;
 
@@ -22,4 +22,3 @@ public class SimpleCORSFilter implements Filter {
 	public void destroy() {}
 
 }
-*/
