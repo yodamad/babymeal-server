@@ -1,8 +1,6 @@
 package fr.jahland.baby.controller;
 
-import fr.jahland.baby.enums.Drug;
-import fr.jahland.baby.enums.MilkType;
-import fr.jahland.baby.enums.Vegetable;
+import fr.jahland.baby.enums.*;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,9 +14,14 @@ import java.util.List;
 @RequestMapping("/metadata")
 public class MetadataController {
 
-    @RequestMapping("/vegetables")
+    @RequestMapping("/aliments/vegetables")
     public List<Vegetable> getVegetables() {
         return Arrays.asList(Vegetable.values());
+    }
+
+    @RequestMapping("/aliments/fruits")
+    public List<Fruit> getFruits() {
+        return Arrays.asList(Fruit.values());
     }
 
     @RequestMapping("/drugs")
@@ -30,4 +33,10 @@ public class MetadataController {
     public List<MilkType> getMilkTypes() {
         return Arrays.asList(MilkType.values());
     }
+
+    @RequestMapping("/mealtypes")
+    public List<MealType> getMealTypes() {
+        return Arrays.asList(MealType.values());
+    }
+
 }
