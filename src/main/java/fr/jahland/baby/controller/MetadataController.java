@@ -29,9 +29,14 @@ public class MetadataController {
         return Arrays.asList(Drug.values());
     }
 
-    @RequestMapping("/milktypes")
+    @RequestMapping("/milk/types")
     public List<MilkType> getMilkTypes() {
         return Arrays.asList(MilkType.values());
+    }
+
+    @RequestMapping("/milk/garnishes")
+    public List<Garnish> getGarnishes() {
+        return Arrays.asList(Garnish.values());
     }
 
     @RequestMapping("/mealtypes")
