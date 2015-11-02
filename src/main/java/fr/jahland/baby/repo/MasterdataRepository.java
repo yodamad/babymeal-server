@@ -11,7 +11,7 @@ import java.util.List;
  * Created by mvincent on 02/11/2015.
  */
 @RepositoryRestResource(collectionResourceRel = "metadata", path = "metadata")
-public interface MasterdataRepository extends MongoRepository<Masterdata, String> {
+public interface MasterdataRepository extends MongoRepository<Masterdata, Integer> {
 
     List<Masterdata> findByType(@Param("type") String type);
 }
