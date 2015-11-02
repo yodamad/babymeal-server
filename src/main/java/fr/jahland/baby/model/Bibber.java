@@ -7,7 +7,7 @@ import java.util.List;
  */
 public class Bibber {
 
-    public List<MilkType> milks;
+    public List<Masterdata> milks;
     public Integer quantity;
-    public Garnish garnish;
+    public Masterdata garnish;
 }

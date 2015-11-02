@@ -13,5 +13,5 @@ public class Meal {
     public LocalTime time;
     public Bibber bibber;
     public Food food;
-    public List<Drug> drugs;
+    public List<Masterdata> drugs;
 }
