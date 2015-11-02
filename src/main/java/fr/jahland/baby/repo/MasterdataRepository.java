@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by mvincent on 02/11/2015.
  */
-@RepositoryRestResource(collectionResourceRel = "metadata", path = "metadata")
+@RepositoryRestResource(collectionResourceRel = "masterdata", path = "masterdata")
 public interface MasterdataRepository extends MongoRepository<Masterdata, Integer> {
 
     List<Masterdata> findByType(@Param("type") String type);
