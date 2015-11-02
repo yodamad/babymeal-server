@@ -1,5 +1,6 @@
 package fr.jahland.baby.model;
 
+import fr.jahland.baby.enums.Garnish;
 import fr.jahland.baby.enums.MilkType;
 
 import java.util.List;
@@ -11,5 +12,5 @@ public class Bibber {
 
     public List<MilkType> milks;
     public Integer quantity;
-
+    public Garnish garnish;
 }
