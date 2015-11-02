@@ -1,7 +1,5 @@
 package fr.jahland.baby.model;
 
-import fr.jahland.baby.enums.Drug;
-
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
