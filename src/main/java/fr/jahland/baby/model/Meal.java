@@ -1,5 +1,7 @@
 package fr.jahland.baby.model;
 
+import org.springframework.data.annotation.Id;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
@@ -9,6 +11,8 @@ import java.util.List;
  */
 public class Meal {
 
+    @Id
+    public String id;
     public LocalDate date;
     public LocalTime time;
     public Bibber bibber;

@@ -1,5 +1,7 @@
 package fr.jahland.baby.model;
 
+import org.springframework.data.annotation.Id;
+
 import java.util.List;
 
 /**
@@ -7,6 +9,8 @@ import java.util.List;
  */
 public class Bibber {
 
+    @Id
+    public String id;
     public List<Masterdata> milks;
     public Integer quantity;
     public Masterdata garnish;

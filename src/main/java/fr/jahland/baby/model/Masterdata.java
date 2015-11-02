@@ -7,7 +7,7 @@ import org.springframework.data.annotation.Id;
  */
 public class Masterdata {
     @Id
-    public Integer id;
+    public String id;
     public String label;
     public String type;
 }
