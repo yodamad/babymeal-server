@@ -4,7 +4,7 @@ import org.springframework.data.annotation.Id;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
-import java.util.Map;
+import java.util.List;
 
 /**
  * Created by mvincent on 27/10/2015.
@@ -17,5 +17,5 @@ public class Meal {
     public LocalTime time;
     public Bibber bibber;
     public Food food;
-    public Map<Masterdata, Integer> drugs;
+    public List<DrugInfo> drugs;
 }
