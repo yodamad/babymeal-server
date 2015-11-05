@@ -5,10 +5,11 @@ import org.springframework.data.annotation.Id;
 import java.util.List;
 
 /**
- * Created by mvincent on 27/10/2015.
+ * Created by mvincent on 05/11/2015.
  */
-public class Food {
+public class Aliment {
     @Id
     public String id;
-    public List<Aliment> aliments;
+    public Masterdata type;
+    public List<Masterdata> tasts;
 }

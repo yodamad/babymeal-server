@@ -18,4 +18,5 @@ public class Meal {
     public Bibber bibber;
     public Food food;
     public List<DrugInfo> drugs;
+    public String comments;
 }
