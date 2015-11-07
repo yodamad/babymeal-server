@@ -5,5 +5,5 @@ package fr.jahland.baby.model;
  */
 public class DrugInfo {
     public Masterdata drugType;
-    public Integer quantity;
+    public Float quantity;
 }
