@@ -12,4 +12,5 @@ public class Aliment {
     public String id;
     public Masterdata type;
     public List<Masterdata> tasts;
+    public Float quantity;
 }

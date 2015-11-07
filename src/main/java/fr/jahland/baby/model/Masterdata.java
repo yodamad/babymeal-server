@@ -10,5 +10,6 @@ public class Masterdata {
     public String id;
     public String label;
     public String type;
+    public String unit;
     public String additionalData;
 }
